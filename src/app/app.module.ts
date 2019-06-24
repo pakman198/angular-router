@@ -9,7 +9,6 @@ import { ComposeMessageComponent } from './compose-message/compose-message.compo
 
 import { AppRoutingModule } from './app-routing.module';
 import { HeroesModule } from './heroes/heroes.module';
-import { AdminModule } from './admin/admin.module';
 import { AuthModule } from './auth/auth.module';
 import { CrisisCenterModule } from './crisis-center/crisis-center.module';
 
@@ -26,7 +25,6 @@ import { CrisisCenterModule } from './crisis-center/crisis-center.module';
     HeroesModule,
     AuthModule,
     CrisisCenterModule,
-    AdminModule,
     AppRoutingModule,
   ],
   providers: [],
